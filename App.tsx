@@ -4,7 +4,7 @@ import { StyleSheet, Text, View, ImageBackground, TouchableOpacity, StatusBar } 
 const App = () => {
   return (
     <ImageBackground
-      source={{ uri: 'https://cdn.pixabay.com/photo/2023/08/07/13/44/tree-8175062_1280.jpg' }} // ganti sesuai kebutuhan
+      source={{ uri: 'https://cdn.pixabay.com/photo/2023/08/07/13/44/tree-8175062_1280.jpg' }}
       style={styles.background}
     >
       <StatusBar barStyle="light-content" translucent backgroundColor="transparent" />
